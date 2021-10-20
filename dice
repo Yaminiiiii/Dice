@@ -1,0 +1,17 @@
+#include <iostream>
+#include <time.h>
+using namespace std;
+int main()
+{
+    int b;
+    srand(time(NULL));
+
+    do{
+
+    b=rand()%6+1;
+    cout << b << " ";
+    if (b==6)
+        }while(true);
+
+    return 0;
+}
